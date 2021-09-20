@@ -1,0 +1,11 @@
+# Train :
+F1 Score : 0.21779548472775564
+Confusion Matrix :
+[[2746 1155]
+ [  23  164]]
+
+# Test :
+F1 Score : 0.27411167512690354
+Confusion Matrix :
+[[682 278]
+ [  8  54]]
