@@ -11,9 +11,8 @@ def make_tests():
 
 
 if __name__ == "__main__":
-    # Sleep 2 seconds to make sure the API is up and running.
-    # We could use tools like https://github.com/vishnubob/wait-for-it
-    # instead (see https://docs.docker.com/compose/startup-order/).
-    # But for now this is enough.
+    # 2 secondes de pause pour vous assurer que l'API est opérationnelle.
+    # Nous pourrions utiliser des outils comme (voir https://docs.docker.com/compose/startup-order/).
+    # Mais pour l'instant c'est suffisant.
     time.sleep(2)
     make_tests()
